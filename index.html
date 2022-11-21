@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="register_css.css">
+    <script src="register.js"></script>
+</head>
+<body>
+	<form class = "box" action = "" method = "POST">
+		<fieldset>
+			<legend style="text-align: center" class = "res">Score Card</legend>
+			<table>
+				<tr>
+					<td><label for="sid" class = "res"><b>Roll ID :</b></label></td>
+					<td><input type="text" name="sid" id="sid" required></td>
+				</tr>
+                <tr></tr>
+				<tr>
+					<td><label for="fname" class = "res"><b>Name :</b></label></td>
+					<td><input type="text" name="fname" id="fname" required></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td><label for="address" class = "res"><b>Address :</b></label></td>
+					<td><input type="text" name="address" id="address" minlength="10" maxlength="60" required></td>
+				</tr>
+                <tr></tr>
+				<tr>
+					<td><label for="sub1" class = "res"><b>1st Subject :</b></label></td>
+					<td><input type="tel" name="sub1" id="sub1" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub2" class = "res"><b>2nd subject :</b></label></td>
+					<td><input type="tel" name="sub2" id="sub2" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub3" class = "res"><b>3rd subject :</b></label></td>
+					<td><input type="tel" name="sub3" id="sub3" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub4" class = "res"><b>4th subject :</b></label></td>
+					<td><input type="tel" name="sub4" id="sub4" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub5" class = "res"><b>5th subject :</b></label></td>
+					<td><input type="tel" name="sub5" id="sub5" required></td>
+				</tr>
+                <tr></tr>
+                <tr></tr>
+			</table>
+		<button type="submit" onclick="onSubmit()" id="submit">Sign Up</button>
+	</fieldset>
+	</form>
+</body>
+</html>
